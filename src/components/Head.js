@@ -1,6 +1,6 @@
 import React from 'react'
 import { toggleMenu } from '../utils/appSlice';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 const Head = () => {
 
