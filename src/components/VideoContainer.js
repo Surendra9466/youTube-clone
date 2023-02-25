@@ -19,7 +19,7 @@ function VideoContainer() {
 
   return (
     <div className='flex flex-wrap justify-around'>
-      {videos.map((item, index) => {
+      {videos?.map((item, index) => {
         return (
           <Link to={"/watch?v=" + item.id} key={index}>
             <VideoCard info={item} key={item.id} />
